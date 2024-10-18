@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.game-area {
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 60%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem; /* Adiciona espaço entre o input e o botão */
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.feedback {
+  margin-bottom: 1rem;
+}
+
+#result-message {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+#attempts-left {
+  color: #ff3333;
+}
+
+#restart-game {
+  background-color: #ff5722;
+}
+
+#restart-game:hover {
+  background-color: #e64a19;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 600px) {
+  .container {
+      padding: 1rem;
+  }
+
+  input {
+      width: 50%;
+  }
+
+  button {
+      font-size: 0.9rem;
+  }
+
+  p, h1 {
+      font-size: 1rem;
+  }
+}
