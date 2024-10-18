@@ -41,7 +41,7 @@ Para utilizar o jogo localmente:
 1. Faça o clone do repositório ou baixe o código-fonte.
 
 ```bash
-git clone https://github.com/seu-usuario/jogo-adivinhacao.git
+git clone https://github.com/marconesdb/JogodeAdivinha-o
 ```
 
 2. Abra o arquivo `index.html` no seu navegador de preferência.
