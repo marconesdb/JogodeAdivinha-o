@@ -59,7 +59,7 @@ git clone https://github.com/seu-usuario/jogo-adivinhacao.git
 
 O design do jogo é totalmente responsivo, garantindo que ele seja acessível e jogável em dispositivos móveis, tablets e desktops. O layout se ajusta automaticamente para diferentes tamanhos de tela, oferecendo uma experiência consistente.
 
-## Capturas de Tela
+## Jogo de Adivinhação
 
 ![Preview - Jogo de Adivinhação](./Preview.png)
 
